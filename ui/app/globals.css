@@ -33,3 +33,11 @@ body {
 .blink {
   animation: blink 1s step-start infinite;
 }
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
