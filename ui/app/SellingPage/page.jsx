@@ -218,7 +218,7 @@ function Hero() {
         {/* Eyebrow */}
         <div style={{ fontFamily:"'Geist Mono',monospace", fontSize:".62rem", letterSpacing:".24em", textTransform:"uppercase", color:"teal", display:"flex", alignItems:"center", gap:".75rem", marginBottom:"2rem" }} className="text-xs">
           <span style={{ display:"block", width:"2.5rem", height:1, background:"#3a6ea5" }}/>
-          Software Developer · Revisit Technologies · HealthCare Tech Founder(RevisitHMS)
+          Software Developer · Revisit Technologies
         </div>
 
         {/* Name */}
@@ -267,7 +267,7 @@ function Hero() {
           {[
             ["Function","Software Developer & Founder"],
             ["Company","Revisit Technologies"],
-            ["Domain","Healthcare Tech · Logistics"],
+            ["Domain","Full-stackWeb Development"],
             ["Status","Building in Public 🌐"],
             ["Experience building","2+ Years"],
           ].map(([l,v]) => (
