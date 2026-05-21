@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "",
+  title: "Unique U Okeke",
+  description: "Software Developer & Founder",
 };
 
 export default function RootLayout({ children }) {
