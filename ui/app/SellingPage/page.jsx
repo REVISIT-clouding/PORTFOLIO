@@ -267,7 +267,7 @@ function ExperienceBar() {
   const goTo = (n) => setI((n + EXPERIENCE_ITEMS.length) % EXPERIENCE_ITEMS.length);
 
   return (
-    <div className="relative z-10 border-t border-[#f5f0e8]/[0.08] bg-[#0f0e0d]/60 backdrop-blur-xl">
+    <div className="relative z-10 border-t border-[#f5f0e8]/[0.08] bg-black">
       <div className="max-w-[1400px] mx-auto px-6 py-5">
         <div className="flex items-start justify-between gap-6 flex-wrap">
           <div className="flex flex-wrap gap-8 flex-1 min-w-0">
