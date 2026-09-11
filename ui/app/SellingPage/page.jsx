@@ -149,7 +149,7 @@ function Navbar() {
 function Hero() {
   return (
     <section id="about" className="bg-[#0f0e0d] min-h-screen flex flex-col justify-end relative overflow-hidden">
-      <div className="absolute inset-0 bg-cover bg-center opacity-30" style={{ backgroundImage: "url('/ppic.png')" }} />
+      <div className="absolute inset-0 bg-cover bg-center opacity-30" style={{ backgroundImage: "url('/ppic.PNG')" }} />
       <div className="absolute inset-0" style={{ backgroundImage: "linear-gradient(rgba(245,240,232,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(245,240,232,.04) 1px,transparent 1px)", backgroundSize: "60px 60px" }} />
       <div className="absolute inset-0 bg-gradient-to-t from-[#0f0e0d] via-[#0f0e0d]/60 to-[#0f0e0d]/15" />
 
