@@ -1,9 +1,9 @@
-import SellingPage from "./SellingPage/page";
+import Face from "./Face/page";
 
 export default function Home() {
   return (
     <div>
-    <SellingPage/>
+    <Face/>
     </div>
   );
 }
