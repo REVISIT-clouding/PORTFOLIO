@@ -24,14 +24,14 @@ const EMAIL = "uounique251@gmail.com";
 const STATUS = "Available for new projects";
 const CV_URL = "/cv.pdf";              // put your PDF in the public folder as cv.pdf
 
-const ABOUT_INTRO =
-    "I'm Unique, a full-stack developer based in Benin City, Edo State, Nigeria. I build software that has to hold up outside the demo: several organisations on one system, patchy internet, and real money moving through wallets.";
+export const ABOUT_INTRO =
+    "I'm Unique, a self-taught full-stack developer based in Nigeria. I focus on building practical web applications and resilient software systems built for real-world conditions: multi-tenant architectures, offline-first reliability, and secure data workflows.";
 
-const ABOUT_FULL = [
-    "I'm Unique, a full-stack developer based in Port Harcourt, Nigeria. I like building software that has to hold up outside the demo: systems where several organisations share one platform, where the internet drops in the middle of a shift, and where money and patient records have to be right.",
-    "My work so far includes a multi-tenant hospital management system that keeps working offline and syncs when the connection returns, a spa platform that follows up with leads automatically, and a rewards platform where businesses fund tasks and users get paid in naira.",
-    "I care about the unglamorous parts: access control so one customer never sees another's data, clear billing and wallet logic, and screens people can actually use on a phone.",
-    "I build with React and Next.js on the front and Supabase and PostgreSQL behind it, and I enjoy turning a rough idea into something people can use.",
+export const ABOUT_FULL = [
+    "I'm a full-stack software developer focused on building practical web applications and software systems. My experience spans frontend and backend development, database design, API development, authentication, authorization, and application workflows across healthcare management, e-commerce, task management, and data-driven platforms.",
+    "I enjoy understanding how systems work beyond their interfaces—from how information is stored and processed to how different parts of an application communicate. I pay close attention to the critical details: strict multi-tenant isolation, clear transactional logic, offline data syncing, and interfaces optimized for mobile performance.",
+    "My hands-on experience includes an offline-capable hospital management system, automated booking workflows, and a digital rewards platform managing user wallets and tasks using React, Next.js, Supabase, and PostgreSQL.",
+    "Through independent and project-based development, I've gained practical experience working through technical challenges, testing application behavior, and making engineering decisions. I'm continuously developing my skills and looking to contribute to a software engineering team where I can build useful products, learn from experienced developers, and grow as an engineer."
 ];
 
 // Replace these with real quotes from real people before you publish.
@@ -130,7 +130,7 @@ function SkillBand({ names }) {
     const items = [...row, ...row]; // doubled so the loop is seamless
 
     return (
-        <div className="overflow-hidden bg-red-500 py-3 text-white" aria-hidden="true">
+        <div className="overflow-hidden bg-red-500 py-2 text-white" aria-hidden="true">
             <style>{`
                 @keyframes skill-band { from { transform: translateX(0); } to { transform: translateX(-50%); } }
                 .skill-band { animation: skill-band 30s linear infinite; }
@@ -761,7 +761,7 @@ export default function Face() {
                         <div>
                             <p className="text-lg font-semibold">Hello its Unique.</p>
                             <p className="mt-1 inline-flex items-center gap-1 rounded-full border bg-white px-3 py-1 text-xs text-gray-600">
-                                <BiMap className="text-base" /> Port Harcourt, Nigeria
+                                <BiMap className="text-base" /> Benin City, Nigeria
                             </p>
                         </div>
                     </div>
