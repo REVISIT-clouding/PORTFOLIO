@@ -40,7 +40,6 @@ export function CreateEXP({ onSuccess, existing, onCancel }) {
 
         try {
             let res;
-
        
             const fd = new FormData();
             fd.append("title", title);
