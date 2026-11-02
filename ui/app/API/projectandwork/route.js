@@ -3,6 +3,9 @@ import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import jwt from "jsonwebtoken";
 
+
+export const dynamic = "force-dynamic";
+
 export async function POST(req) {
     try {
         // 1. Authenticate via custom JWT cookie

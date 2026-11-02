@@ -3,6 +3,8 @@ import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import jwt from "jsonwebtoken";
 
+export const dynamic = "force-dynamic";
+
 export async function PUT(req, { params }) {
     try {
         const JWT_SECRET = process.env.JWT_SECRET;
